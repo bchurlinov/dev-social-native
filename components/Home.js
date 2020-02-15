@@ -40,6 +40,7 @@ const Home = ({ loadProfiles, loadUser, profiles, navigation, userData, loadTopi
                     key={index}
                     topic={topic}
                     screenWidth={1.2}
+                    user={userData}
                 />
             )
         })

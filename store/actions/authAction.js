@@ -62,7 +62,6 @@ export const loadUser = () => {
         try {
 
             const userData = await axios.get(`${url}/auth/getuser`);
-            console.log(22);
          
             dispatch({
                 type: LOAD_USER,

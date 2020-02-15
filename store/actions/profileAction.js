@@ -8,8 +8,7 @@ export const loadProfiles = (status = "", skills = "", location = "") => {
         try {
 
             const profiles = await axios.get(`${url}/profile?status=${status}&skills=${skills}&location=${location.toLowerCase()}`);
-            console.log(11);
-
+    
             dispatch({
                 type: LOAD_PROFILES,
                 payload: profiles.data

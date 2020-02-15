@@ -13,3 +13,4 @@ export const ADD_PROFILE = "ADD_PROFILE";
 
 /* Topics / Comments */
 export const LOAD_TOPICS = "LOAD_TOPICS";
+export const ADD_LIKE = "ADD_LIKE";
